@@ -1,0 +1,26 @@
+.component {
+  padding: 10px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  background-color: #eee;
+  border-radius: 0.2rem;
+  border: 1px solid #999;
+  font-size: 0.8rem;
+  transition: background-color ease-in-out 200ms;
+}
+
+.component:hover {
+  background-color: #fff;
+}
+
+.component:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.component:disabled:hover {
+    background-color: #eee;
+}
