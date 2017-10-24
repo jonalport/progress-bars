@@ -42,17 +42,20 @@ At the moment we just have some basic unit tests, testing our components in isol
 ### Continuous Integration
 It would be good to have an automatic deployment process hooked up to our repo, which ran our test suites and deployed the app to staging & production environments.
 
+### Semantic markup
+We have used DIVs to lay out our progress bars, but there does exist a more suitable "PROGRESS" HTML element. It may well be better to use this, although it requires more investigation as it seems a bit tricky to render/style it reliably across browsers.
+
 ### Design/UX
-We could spend some time improving the usability and aesthetics of this fine UI. It might be interesting to play with some CSS animations on the striped background.
+We could spend some time improving the usability and aesthetics of this fine UI. For example, I can already see that the buttons don't look that clickable. It might be interesting to play with some CSS animations on the striped background, and make use of a select box component that fits our design better.
 
 ### A/B testing
-If we really wanted to improve the usability of the app, we could use some A/B testing techniques to compare the how variations in the UI appealed to users.
+If we really wanted to improve the usability of the app, we could employ some A/B testing techniques to compare the how variations in the UI appealed to users.
 
-### User testing sessions
+### User testing
 Similarly to A/B tests, live user testing sessions with real users could yield some valuable insight into usability.
 
 ### Accessibility
-While we have added some ARIA attributes to aid users making use of assistive devices & screen readers, we could go to greater lengths to ensure the application was available and easy to use for a wider audience.
+While we have added some ARIA attributes to aid users making use of assistive devices & screen readers, we could go to greater lengths to ensure the application was available and easy to use for a wider audience. For example, I can see some contrast issues with the current font / background combination.
 
 ### Modularisation
 It might be nice to refactor the app into a few more components, say one which managed the controls, and another for the bars as a collection.
