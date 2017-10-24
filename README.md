@@ -45,14 +45,23 @@ It would be good to have an automatic deployment process hooked up to our repo, 
 ### Design/UX
 We could spend some time improving the usability and aesthetics of this fine UI.
 
+### A/B testing
+If we really wanted to improve the usability of the app, we could use some A/B testing techniques to compare the how variations in the UI appealed to users.
+
+### User testing sessions
+Similarly to A/B tests, live user testing sessions with real users could yield some valuable insight into usability.
+
+### Accessibility
+While we have added some ARIA attributes to aid users making use of assistive devices & screen readers, we could go to greater lengths to ensure the application was available and easy to use for a wider audience.
+
 ### Modularisation
 It might be nice to refactor the app into a few more components, say one which managed the controls, and another for the bars as a collection.
-
-### A purpose
-The app is kinda useless at the moment, it would be good to have the progress bars measuring/controlling something meaningful. It would also be interesting to play with some CSS animations on the striped background.
 
 ### Server rendering
 Could be interesting to turn this into a universal app, which should make it load quicker as well as improving SEO.
 
 ### Browser testing
 This was only tested in recent versions of modern browsers.
+
+### A purpose
+The app is kinda useless at the moment, it would be good to have the progress bars measuring/controlling something meaningful. It would also be interesting to play with some CSS animations on the striped background.
