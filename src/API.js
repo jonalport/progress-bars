@@ -1,7 +1,7 @@
 const API = {};
 
 API.getData = async () => {
-  const endpoint = 'http://frontend-exercise.apps.staging.digital.gov.au/bars';
+  const endpoint = 'https://frontend-exercise.apps.staging.digital.gov.au/bars';
   let bars;
   let buttons;
 
