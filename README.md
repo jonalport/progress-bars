@@ -4,7 +4,7 @@ This is a POC app that was scaffolded with [Create React App](https://github.com
 
 I probably spent about half a day working on this in total, there are many improvements which could be made, some of which are detailed below.
 
-Demo: (http://jonalport.github.io/progress-bars)
+Demo: https://jonalport.github.io/progress-bars
 
 ## Getting started
 

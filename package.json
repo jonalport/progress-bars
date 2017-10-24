@@ -2,7 +2,7 @@
   "name": "progress-bars",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://jonalport.github.io/progress-bars",
+  "homepage" : ".",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
