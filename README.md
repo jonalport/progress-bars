@@ -28,6 +28,9 @@ npm test -- --watch
 ### Run linting
 npm run lint
 
+### Build production release
+npm run build
+
 ## Potential improvements
 
 ### CSS strategy
