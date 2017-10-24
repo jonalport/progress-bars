@@ -20,25 +20,43 @@
   z-index: 2;
   transition: width ease-in-out 200ms;
   background-size: 4rem 2rem, 100% 100%, 100% 100%;
+  background-color: #67B26F;
   background-image:
-	   -webkit-linear-gradient(-45deg,
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -webkit-linear-gradient(top,
-	                           rgba(255, 255, 255, .25),
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #67B26F, #4ca2cd);
+   linear-gradient(-45deg,
+     transparent 33%, rgba(0, 0, 0, .1) 33%,
+     rgba(0,0, 0, .1) 66%, transparent 66%),
+   linear-gradient(top,
+     rgba(255, 255, 255, .25),
+     rgba(0, 0, 0, .25)),
+   linear-gradient(left, #67B26F, #4ca2cd);
+  background-image:
+   -moz-linear-gradient(-45deg,
+     transparent 33%, rgba(0, 0, 0, .1) 33%,
+     rgba(0,0, 0, .1) 66%, transparent 66%),
+   -moz-linear-gradient(top,
+     rgba(255, 255, 255, .25),
+     rgba(0, 0, 0, .25)),
+   -moz-linear-gradient(left, #67B26F, #4ca2cd);
 }
 
 .overOneHundred {
+  background-color: #ee0979;
   background-image:
-	   -webkit-linear-gradient(-45deg,
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -webkit-linear-gradient(top,
-	                           rgba(255, 255, 255, .25),
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #ee0979, #ff6a00);
+   linear-gradient(-45deg,
+     transparent 33%, rgba(0, 0, 0, .1) 33%,
+     rgba(0,0, 0, .1) 66%, transparent 66%),
+   linear-gradient(top,
+     rgba(255, 255, 255, .25),
+     rgba(0, 0, 0, .25)),
+   linear-gradient(left, #ee0979, #ff6a00);
+ background-image:
+   -moz-linear-gradient(-45deg,
+     transparent 33%, rgba(0, 0, 0, .1) 33%,
+     rgba(0,0, 0, .1) 66%, transparent 66%),
+   -moz-linear-gradient(top,
+     rgba(255, 255, 255, .25),
+     rgba(0, 0, 0, .25)),
+   -moz-linear-gradient(left, #ee0979, #ff6a00);
 }
 
 .label {

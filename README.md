@@ -6,6 +6,8 @@ I probably spent about half a day working on this in total, there are many impro
 
 Demo: https://jonalport.github.io/progress-bars
 
+![Screenshot of progress-bars app](/screenshot.png?raw=true "Screenshot")
+
 ## Getting started
 
 ### Required
