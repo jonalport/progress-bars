@@ -43,7 +43,7 @@ At the moment we just have some basic unit tests, testing our components in isol
 It would be good to have an automatic deployment process hooked up to our repo, which ran our test suites and deployed the app to staging & production environments.
 
 ### Design/UX
-We could spend some time improving the usability and aesthetics of this fine UI.
+We could spend some time improving the usability and aesthetics of this fine UI. It might be interesting to play with some CSS animations on the striped background.
 
 ### A/B testing
 If we really wanted to improve the usability of the app, we could use some A/B testing techniques to compare the how variations in the UI appealed to users.
@@ -64,4 +64,4 @@ Could be interesting to turn this into a universal app, which should make it loa
 This was only tested in recent versions of modern browsers.
 
 ### A purpose
-The app is kinda useless at the moment, it would be good to have the progress bars measuring/controlling something meaningful. It would also be interesting to play with some CSS animations on the striped background.
+The app is kinda useless at the moment, it would be good to have the progress bars measuring/controlling something meaningful or useful.
