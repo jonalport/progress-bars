@@ -57,6 +57,9 @@ Similarly to A/B tests, live user testing sessions with real users could yield s
 ### Accessibility
 While we have added some ARIA attributes to aid users making use of assistive devices & screen readers, we could go to greater lengths to ensure the application was available and easy to use for a wider audience. For example, I can see some contrast issues with the current font / background combination.
 
+### Loading indicator
+Currently we are not rendering any progress bars or controls until we receive the payload from the server. We could add a loading message/animation while we are fetching the data, to give the user a bit of info instead of a blank space.
+
 ### Modularisation
 It might be nice to refactor the app into a few more components, say one which managed the controls, and another for the bars as a collection.
 
